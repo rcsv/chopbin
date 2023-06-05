@@ -1,5 +1,4 @@
 @echo off
-1234567890123456789012345678901234567890123456789012345678901234567890123456
 REM ----------------------------------------------------------------------
 REM CHOP BINARY FILE FOR WINDOWS
 REM @author rcsvpg rcsvpg@outlook.com
@@ -23,3 +22,5 @@ set ddf=%TEMP%\cabprof.ddf
 echo get start chop files
 MAKECAB /d MaxDiskSize=%separate_size% /d RptFileName=NUL /d DiskDirectoryTemplate="%~n1" /f "%ddf%"
 echo DONE
+
+
